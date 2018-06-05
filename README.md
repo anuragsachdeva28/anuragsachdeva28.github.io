@@ -1,2 +1,1 @@
-Coming Soon...
-My Resume Page!!!
+# Zealicon Official Website
