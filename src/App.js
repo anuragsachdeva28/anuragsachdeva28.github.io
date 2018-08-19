@@ -9,7 +9,7 @@ export default class App extends Component<{}> {
     return (
       <div className="demo-big-content">
           <Layout>
-              <Header title="PortFolio" scroll>
+              <Header title="MY PORTFOLIO" scroll>
                   <Navigation>
                       <Link to="/about">About</Link>
                       <Link to="/projects">Projects</Link>
