@@ -1,37 +1,31 @@
 import React, { Component } from 'react';
-import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
-import {Link} from 'react-router-dom';
-import Main from './components/main';
+import LandingPage from '@pages/LandingPage';
+import AboutPage from '@pages/AboutPage';
+import PortfolioPage from '@pages/PortfolioPage';
+import ParallaxBackground from '@components/ParallaxBackground';
+import ScrollTop from '@components/ScrollTop';
+import ThemeSwitcher from '@components/ThemeSwitcher';
+import Browser from '@components/Browser';
+import Footer from '@components/Footer';
 
-export default class App extends Component<{}> {
+class App extends Component {
+
   render() {
     return (
-      <div className="demo-big-content">
-          <Layout>
-              <Header className='header-color' title="MY PORTFOLIO" scroll>
-                  <Navigation>
-                      <Link to="/about">About</Link>
-                      <Link to="/projects">Projects</Link>
-                      <Link to="/resume">Resume</Link>
-                      <Link to="/contact">Contact Me</Link>
-                  </Navigation>
-              </Header>
-              <Drawer title="Title">
-                  <Navigation>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/contact">Contact Me</Link>
-                  </Navigation>
-              </Drawer>
-              <Content>
-                  <div className="page-content" />
-                  <Main/>
-              </Content>
-          </Layout>
+      <div className="dev-landing-page">
+        <ThemeSwitcher>
+          <Browser except firefox>
+            <ParallaxBackground />
+          </Browser>
+          <LandingPage />
+          <AboutPage />
+          <PortfolioPage />
+          <ScrollTop />
+          <Footer />
+        </ThemeSwitcher>
       </div>
-
     );
   }
 }
+
+export default App;
