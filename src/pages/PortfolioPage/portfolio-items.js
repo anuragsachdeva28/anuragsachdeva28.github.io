@@ -15,48 +15,69 @@ export default [{
         <i className="fab fa-html5"></i>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/anuragsachdeva28/zealicon-18">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="http://zealicon.surge.sh">More</a>
       </div>
     </div>
   )
 }, {
-  name: 'NewsApp',
+  name: 'Proj_hunt',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        NewsApp
+          Proj_hunt
       </div>
       <div className='portfolio-item__desc'>
-        A Web app for different tech news built using React.
+          A technical fun event. This is a portal for an online treasure hunt in
+          which the user will proceed to the next level only if he scans the right QR code.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-react"></i>
+        <i className="fab fa-html5"></i>
         <i className="fab fa-npm"></i>
         <i className="fab fa-js"></i>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/anuragsachdeva28/NewsApp">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/anuragsachdeva28/Proj_hunt">More</a>
       </div>
     </div>
   )
 }, {
-  name: 'Common Platform for Vehicle Regstraton',
+  name: 'Advance Project Management System',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        Common Platform for Vehcle Regstraton
+          Advance Project Management System
       </div>
       <div className='portfolio-item__desc'>
-        A project for common platform for managing asset lifecycle created using Hyperledger Composer (Blockchain). Made at Smart india Hacaathon
+          An advance level Project management tool.
       </div>
       <div className='portfolio-item__icon'>
-        <i className="fab fa-html5"></i>
+        <i className="fab fa-react"></i>
         <i className="fab fa-css3"></i>
         <i className="fab fa-js"></i>
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/anuragsachdeva28">More</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://dexpert.pro">More</a>
       </div>
     </div>
   )
+},{
+    name: 'MCQ Module',
+    render: (
+        <div className='portfolio-item'>
+            <div className='portfolio-item__title'>
+                MCQ Module
+            </div>
+            <div className='portfolio-item__desc'>
+                MCQ Module for conducting Quizzes Online.
+            </div>
+            <div className='portfolio-item__icon'>
+                <i className="fab fa-html5"></i>
+                <i className="fab fa-css3"></i>
+                <i className="fab fa-js"></i>
+            </div>
+            <div className='portfolio-item__links'>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/MMIL/MCQ_Module_V2">More</a>
+            </div>
+        </div>
+    )
 }]
